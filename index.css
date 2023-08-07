@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7ff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_url{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #9381ff;
+    background-color: #f8f7ff;
+}
+
+.btn{
+    background-color: #9381FF;
+    border: 1px solid #9381FF;
+    padding: 10px 20px;
+    color: #FFEEDD;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#url_list{
+    list-style: none;
+    color: #9381FF;
+    padding: 10px;
+}
+
+li{
+    margin-top: 6px;
+}
