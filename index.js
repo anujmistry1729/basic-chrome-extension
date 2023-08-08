@@ -40,7 +40,7 @@ function renderList(urlList){
 
 
     for(let i=0; i < urlList.length; i++){
-        urls += `<li> ${urlList[i]} </li>`;
+        urls += `<li> <a href=${urlList[i]}> ${urlList[i]} </a> </li>`;
     }
 
     urlUnorderedList.innerHTML = urls;
